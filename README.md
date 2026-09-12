@@ -23,14 +23,14 @@ The solution workspace is organized into seven conceptual layers. On the file sy
 
 ---
 
-## 👾 Development Standards
+## 👾 Development Standards & Progress
 
 To maintain a clean and highly modular codebase, this repository follows strict architecture rules, custom naming conventions, and commit standards.
 
-📖 **Read the full guide here:** [GalaxySol.CS Development Guidelines](GUIDELINES.md)
+* 📖 **Read the rules here:** [GalaxySol.CS Development Guidelines](GUIDELINES.md)
+* 🗺️ **Track implementation progress here:** [GalaxySol.CS Project Roadmap](ROADMAP.md)
 
 ---
-
 
 ## 📄 License
 

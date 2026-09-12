@@ -21,7 +21,7 @@ Status indicators:
 * [ ] **`GalaxySol.Algorithms.Crypto`** 🟦 — Common encryption and hashing engines.
 
 ## ⚙️ 4. Infrastructure Layer
-* [x] **`GalaxySol.Infrastructure.Scaffolding`** 🟦 — Automated architecture template builder (Project structure initialized).
+* [ ] **`GalaxySol.Infrastructure.Scaffolding`** 🟦 — Automated architecture template builder (Project structure initialized).
 * [ ] **`GalaxySol.Infrastructure.Logging`** 🟦 — Centralized logger integrations (Serilog wrapper).
 
 ## 🚀 5. Services Layer
