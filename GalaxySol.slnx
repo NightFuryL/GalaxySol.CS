@@ -1,1 +1,9 @@
-<Solution />
+<Solution>
+  <Folder Name="/01_Core/" />
+  <Folder Name="/02_Helpers/" />
+  <Folder Name="/03_Services/" />
+  <Folder Name="/04_Algorithms/" />
+  <Folder Name="/05_Infrastructure/" />
+  <Folder Name="/06_Apps/" />
+  <Folder Name="/07_Tests/" />
+</Solution>
