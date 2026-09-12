@@ -25,6 +25,46 @@ To prevent code clutter and keep IntelliSense clean, every module (project) must
 
 ---
 
+---
+
+## 📖 Module Documentation Standard (`docs/*.md`)
+
+Every core project or service must have a single dedicated documentation file inside the root `docs/` folder (e.g., `docs/ffmpeg.md`). To keep formatting identical across the entire ecosystem, the document must strictly feature only three specific sections wrapping public-facing members inside `<details>` dropdowns:
+
+### 1. High-Level Overview & Architecture
+A short paragraph explaining what the module does and a summary of its internal sub-services or layout.
+
+### 2. Quick Start & Code Examples
+A comprehensive, ready-to-paste C# code block demonstrating how to instantiate the configuration and execute the main pipeline/service engine.
+
+### 3. Public API & Public Enums Reference
+Dropdown lists explaining only the core classes, methods, and enums that the end-user interacts with. Internal workflows should not be documented here (use standard `/// XML comments` instead).
+
+#### Structure Blueprint:
+```markdown
+# 📦 Module Name Documentation
+
+[Short Description]
+
+---
+
+## ⚡ 1. Code Example & Quick Start
+\```csharp
+// Paste usage here
+\```
+
+---
+
+## 📋 2. Public API & Enums Reference
+<details>
+<summary>⚙️ Class: ServiceName</summary>
+* **MethodName()** — what it does.
+</details>
+\```
+```
+
+---
+
 ## 💾 Git Commit Convention (Conventional Commits)
 
 Every commit must represent a single, compiled logical action. The solution must build successfully (`Ctrl + Shift + B`) before pushing any changes.
