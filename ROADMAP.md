@@ -9,28 +9,49 @@ Status indicators:
 
 ---
 
-## 📦 1. Core Layer
-* [ ] **`GalaxySol.Core.Guard`** 🟦 — Advanced data validation mechanics (In progress).
-* [ ] **`GalaxySol.Core.Extensions`** 🟦 — Common memory-type extension methods.
+<details>
+<summary>📦 1. Core Layer (Click to expand)</summary>
 
-## 🛠️ 2. Helpers Layer
+* [ ] **`GalaxySol.Core.Guard`** 🟨 — Advanced data validation mechanics.
+* [ ] **`GalaxySol.Core.Extensions`** 🟦 — Common memory-type extension methods.
+</details>
+
+<details>
+<summary>🛠️ 2. Helpers Layer (Click to expand)</summary>
+
 * [ ] **`GalaxySol.Helpers.Json`** 🟦 — High-performance wrappers for JSON serialization.
 * [ ] **`GalaxySol.Helpers.Csv`** 🟦 — Lightweight and fast CSV parsing tools.
+</details>
 
-## 🧠 3. Algorithms Layer
+<details>
+<summary>🧠 3. Algorithms Layer (Click to expand)</summary>
+
 * [ ] **`GalaxySol.Algorithms.Crypto`** 🟦 — Common encryption and hashing engines.
+</details>
 
-## ⚙️ 4. Infrastructure Layer
-* [ ] **`GalaxySol.Infrastructure.Scaffolding`** 🟦 — Automated architecture template builder (Project structure initialized).
+<details>
+<summary>⚙️ 4. Infrastructure Layer (Click to expand)</summary>
+
+* [ ] **`GalaxySol.Infrastructure.Scaffolding`** 🟨 — Automated architecture template builder (Project structure initialized).
 * [ ] **`GalaxySol.Infrastructure.Logging`** 🟦 — Centralized logger integrations (Serilog wrapper).
+</details>
 
-## 🚀 5. Services Layer
+<details>
+<summary>🚀 5. Services Layer (Click to expand)</summary>
+
 * [ ] **`GalaxySol.Services.FFmpeg`** 🟦 — Multi-service video, audio, and metadata pipelines.
 * [ ] **`GalaxySol.Services.NovaPoshta`** 🟦 — Delivery API integration with models and tracking clients.
 * [ ] **`GalaxySol.Services.Scraping`** 🟦 — Web automation and data extraction core.
+</details>
 
-## 🖥️ 6. Apps Layer
+<details>
+<summary>🖥️ 6. Apps Layer (Click to expand)</summary>
+
 * [ ] **`GalaxySol.Apps.DeveloperCLI`** 🟦 — Terminal launcher for internal scaffolding engine.
+</details>
 
-## 🧪 7. Tests Layer
+<details>
+<summary>🧪 7. Tests Layer (Click to expand)</summary>
+
 * [ ] **`GalaxySol.Tests`** 🟦 — Cross-layer automated test suites.
+</details>
